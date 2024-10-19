@@ -1,0 +1,41 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    
+}
+
+.box {
+    position: absolute;
+    top: 100;
+    right: 50;
+}
+
+.WC {
+    width: 400px;
+    height: 245px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end; 
+    height: 100%;
+}
+
+.text-block {
+    position: absolute;
+    color: white;
+}
+
+.text-block:nth-child(1) {
+    margin-bottom: 10px;
+    left: 750px;
+}
+
+.text-block:nth-child(2) {
+    top: 150px;
+    left: 470px; 
+}
